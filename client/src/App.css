@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&family=IBM+Plex+Sans:wght@100;200;300;400;600;700&family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.form {
+  width: 80%;
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  background-color: white;
+}
+
+.InputTask {
+  border: 1px solid #bdbdbd;
+  height: 40px;
+  width: 100%;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+}
+
+.InputAndlabelContainer {
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.InputAndlabelContainer label {
+  margin-bottom: 10px;
+}
+.ButtonContainer {
+  width: 80%;
+  margin-bottom: 10px;
+}
+.AddTaskBtn {
+  border-radius: 4px;
+  background: #849fff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.CancelTask {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+/* #######----Container2----####### */
+.container2 {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todo-container {
+  font-family: "IBM Plex Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  width: 80%;
+  max-width: 480px;
+}
+
+h5 {
+  text-align: left;
+  padding: 10px;
+}

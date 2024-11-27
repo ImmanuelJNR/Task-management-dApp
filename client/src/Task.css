@@ -1,0 +1,17 @@
+.todo {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.todoText {
+  padding-left: 10px;
+}
+
+.delete {
+  color: #888888;
+}
+
+.divStyles {
+  display: flex;
+}
